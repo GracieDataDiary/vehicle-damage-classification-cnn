@@ -1,0 +1,10 @@
+tensorflow>=2.16,<2.20   # developed on TensorFlow 2.19; uses the Keras ImageDataGenerator API
+numpy
+pandas
+scipy                    # required by ImageDataGenerator for rotation/shear augmentation
+pillow                   # image loading
+scikit-learn
+matplotlib
+seaborn
+jupyter
+ipykernel
